@@ -12,7 +12,6 @@ json_text='{"i": 1, "test": [1,2]}'
 
 test = Lexer.new()
 test:put(json_text)
-print(test.src)
 
 val = test:tokenize()
 
