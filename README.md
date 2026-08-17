@@ -3,6 +3,9 @@ json library written in pure lua. Available for 5.1 - 5.5 Lua versions
 
 # Use example:
 ```
+json = require"jparser"
+Lexer = json.Lexer
+Parser = json.Parser
 json_text='{"i": 1, "test": [1,2]}'
 
 test = Lexer.new()
